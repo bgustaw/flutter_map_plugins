@@ -13,7 +13,9 @@ dependencies:
   flutter:
     sdk: flutter
   mbtiles: ^0.4.0
-  vector_map_tiles: ^7.3.0
+  vector_map_tiles:
+    git:
+      url: "https://github.com/bgustaw/flutter-vector-map-tiles.git"
 
 dev_dependencies:
   flutter_test:
